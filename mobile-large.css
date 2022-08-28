@@ -1,0 +1,40 @@
+main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "foundation"
+    "tools"
+    "download";
+}
+main .download {
+    padding-top: 2rem;
+}
+.tools__item {
+    gap: 0.5rem;
+}
+.foundation__content, .download__content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.content__text {
+    margin: 0;
+    text-align: center;
+}
+.foundation__content .content__text {
+    margin-top: 1rem;
+}
+.download__content {
+    grid-template-areas:
+    "image  title"
+    "_text  _text";
+    grid-template-columns: calc(3rem + (100% - 31rem) / 2) auto;
+}
+.download__content > img {
+    justify-self: end;
+}
+.download__content > h3 {
+    margin-left: 1rem;
+}
+.download__content .content__text {
+    align-items: center;
+}

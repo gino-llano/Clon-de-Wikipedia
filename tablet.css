@@ -1,0 +1,6 @@
+.foundation__content, .download__content {
+    width: 75%;
+}
+main .tools {
+    padding-right: 0;
+}

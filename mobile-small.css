@@ -1,0 +1,32 @@
+header {
+    margin-left: 0;
+    margin-right: 0;
+}
+main {
+    margin-left: 0;
+    margin-right: 0;
+}
+main .tools {
+    gap: 0;
+    padding-right: 0;
+    grid-template-columns: repeat(2, 1fr);
+}
+.section-2__main-nav li a {
+    width: 8rem;
+}
+.section-2__main-nav li a h2 {
+    font-size: var(--font-medium);
+}
+.section-2__main-nav li a p {
+    font-size: var(--font-small);
+}
+.section-4__linea {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.section-4__button-container p {
+    font-size: var(--font-small);
+}
+footer p, footer a {
+    font-size: var(--font-small);
+}
